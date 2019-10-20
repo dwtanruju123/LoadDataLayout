@@ -42,9 +42,8 @@ public class CustomLoadDataLayout extends FrameLayout {
     @Override
     protected void onFinishInflate() {
         super.onFinishInflate();
-        if (getChildCount() > 1) {
-            throw new IllegalStateException(getClass().getSimpleName() + " can host only one direct child");
-        }
+        if (getChildCount() > 1)
+            throw new IllegalStateException(getClass().getSimpleName() + "there must be and only one child layout");
         build();
     }
 
