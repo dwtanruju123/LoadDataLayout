@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomLoadDataLayout">
+        <attr name="loadingViewLayoutId" format="reference" />
+        <attr name="emptyViewLayoutId" format="reference" />
+        <attr name="errorViewLayoutId" format="reference" />
+        <attr name="netWorkViewLayoutId" format="reference" />
+    </declare-styleable>
+</resources>
